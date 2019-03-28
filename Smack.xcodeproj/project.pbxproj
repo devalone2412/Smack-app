@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DB2A79B224CE5EA002BCED8 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB2A79A224CE5EA002BCED8 /* ChatVC.swift */; };
+		3DB2A79D224CE615002BCED8 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB2A79C224CE615002BCED8 /* ChannelVC.swift */; };
 		3DBAA07B224C7EA60081882F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBAA07A224C7EA60081882F /* AppDelegate.swift */; };
-		3DBAA07D224C7EA60081882F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBAA07C224C7EA60081882F /* ViewController.swift */; };
 		3DBAA080224C7EA60081882F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DBAA07E224C7EA60081882F /* Main.storyboard */; };
 		3DBAA082224C7EA70081882F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DBAA081224C7EA70081882F /* Assets.xcassets */; };
 		3DBAA085224C7EA70081882F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DBAA083224C7EA70081882F /* LaunchScreen.storyboard */; };
@@ -17,9 +18,10 @@
 
 /* Begin PBXFileReference section */
 		34B83F3D055C29B51D98648B /* Pods_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB2A79A224CE5EA002BCED8 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		3DB2A79C224CE615002BCED8 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		3DBAA077224C7EA60081882F /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DBAA07A224C7EA60081882F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3DBAA07C224C7EA60081882F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3DBAA07F224C7EA60081882F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DBAA081224C7EA70081882F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DBAA084224C7EA70081882F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +42,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DB2A797224CE4EF002BCED8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3DB2A79A224CE5EA002BCED8 /* ChatVC.swift */,
+				3DB2A79C224CE615002BCED8 /* ChannelVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3DB2A798224CE4F5002BCED8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3DB2A799224CE4FB002BCED8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		3DBAA06E224C7EA60081882F = {
 			isa = PBXGroup;
 			children = (
@@ -61,8 +86,10 @@
 		3DBAA079224C7EA60081882F /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				3DB2A799224CE4FB002BCED8 /* Model */,
+				3DB2A798224CE4F5002BCED8 /* View */,
+				3DB2A797224CE4EF002BCED8 /* Controller */,
 				3DBAA07A224C7EA60081882F /* AppDelegate.swift */,
-				3DBAA07C224C7EA60081882F /* ViewController.swift */,
 				3DBAA07E224C7EA60081882F /* Main.storyboard */,
 				3DBAA081224C7EA70081882F /* Assets.xcassets */,
 				3DBAA083224C7EA70081882F /* LaunchScreen.storyboard */,
@@ -208,7 +235,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DBAA07D224C7EA60081882F /* ViewController.swift in Sources */,
+				3DB2A79B224CE5EA002BCED8 /* ChatVC.swift in Sources */,
+				3DB2A79D224CE615002BCED8 /* ChannelVC.swift in Sources */,
 				3DBAA07B224C7EA60081882F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
