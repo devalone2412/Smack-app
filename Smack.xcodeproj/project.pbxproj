@@ -16,6 +16,7 @@
 		3D8B93592251B71E00B64FCF /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D8B93572251B71E00B64FCF /* ProfileVC.xib */; };
 		3DAAFE4C2252162800F12B52 /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAAFE4B2252162800F12B52 /* MessageService.swift */; };
 		3DAAFE4E2252166A00F12B52 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAAFE4D2252166A00F12B52 /* Channel.swift */; };
+		3DAAFE502252216C00F12B52 /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAAFE4F2252216B00F12B52 /* ChannelCell.swift */; };
 		3DB2A79B224CE5EA002BCED8 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB2A79A224CE5EA002BCED8 /* ChatVC.swift */; };
 		3DB2A79D224CE615002BCED8 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB2A79C224CE615002BCED8 /* ChannelVC.swift */; };
 		3DB2A79F224D13C1002BCED8 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB2A79E224D13C1002BCED8 /* GradientView.swift */; };
@@ -41,6 +42,7 @@
 		3D8B93572251B71E00B64FCF /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		3DAAFE4B2252162800F12B52 /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
 		3DAAFE4D2252166A00F12B52 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		3DAAFE4F2252216B00F12B52 /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
 		3DB2A79A224CE5EA002BCED8 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		3DB2A79C224CE615002BCED8 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		3DB2A79E224D13C1002BCED8 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				3D7C9424224F05F8001D1AD3 /* RoundedButton.swift */,
 				3D5C1852225119AE008124F6 /* AvatarCell.swift */,
 				3D6BFEEA2251A1F7001465FB /* CircleImage.swift */,
+				3DAAFE4F2252216B00F12B52 /* ChannelCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				3DBA8B5E224DB5F7008CBFA5 /* CreateAccountVC.swift in Sources */,
 				3D5C184F22510A2C008124F6 /* UserDataService.swift in Sources */,
 				3DAAFE4C2252162800F12B52 /* MessageService.swift in Sources */,
+				3DAAFE502252216C00F12B52 /* ChannelCell.swift in Sources */,
 				3DB2A79F224D13C1002BCED8 /* GradientView.swift in Sources */,
 				3DBAA07B224C7EA60081882F /* AppDelegate.swift in Sources */,
 				3D5C1853225119AE008124F6 /* AvatarCell.swift in Sources */,
